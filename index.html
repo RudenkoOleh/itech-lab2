@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Лабораторна 2</title>
+        <style>
+            .accordions {
+                width: 15%;
+                position: fixed;
+                right: 80px;
+                bottom: 50px;
+            }
+            .accordion {
+                display: block;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <main style="max-width: 50rem; margin: 0 auto; padding: 1.25rem">
+            <div class="accordions">
+                <div class="accordion">
+                    <input type="checkbox" class="accordion-input" id="section1" />
+                    <label style="border-radius: 5px 5px 0 0" class="accordion-label" for="section1">Introdaction</label>
+                    <div class="accordion-content">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum vel voluptate amet, dicta
+                            libero accusamus incidunt consequatur blanditiis.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <input type="checkbox" class="accordion-input" id="section2" />
+                    <label class="accordion-label" for="section2">General info</label>
+                    <div class="accordion-content">
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, distinctio id! Iusto
+                            laboriosam fugiat architecto consequuntur hic magni vero odio minus voluptates, illo ab autem
+                            quis ducimus fuga sint animi.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <input type="checkbox" class="accordion-input" id="section3" />
+                    <label style="border-radius: 0 0 5px 5px" class="accordion-label" for="section3">Contact Us</label>
+                    <div class="accordion-content">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt ipsa laborum totam unde
+                            commodi? Dignissimos deleniti alias officiis quidem suscipit sed maxime eaque non doloribus,
+                            quas, cum accusantium ipsa est!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
